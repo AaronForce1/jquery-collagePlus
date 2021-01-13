@@ -14,11 +14,20 @@
         "name": "Ed Lea",
         "url": "http://edlea.com"
     },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/AaronForce1/jquery-collagePlus.git"
+    },
     "maintainers": [
         {
             "name": "Ed Lea",
             "email": "edleadesign@gmail.com",
             "url": "http://edlea.com"
+        },
+        {
+            "name": "Aaron Baideme",
+            "email": "aaron.baideme@advancedtechnologies.com.hk",
+            "url": "https://github.com/aaronforce1"
         }
     ],
     "licenses": [
@@ -33,5 +42,12 @@
     "download": "https://github.com/ed-lea/jquery-collagePlus/zipball/master",
     "dependencies": {
         "jquery": ">=1.7"
+    },
+    "main": "jquery.collagePlus.js",
+    "directories": {
+        "examples": "examples",
+        "extras": "extras",
+        "support": "support",
+        "css": "css"
     }
 }
